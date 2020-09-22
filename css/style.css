@@ -1,0 +1,456 @@
+/***********************************
+        global css here
+************************************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/***********************************
+      header section css here
+************************************/
+.header{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 15px 0px;
+	background: #f5f7fa;
+}
+.top-header .left{
+	display: block;
+	margin: 0px;
+}
+.top-header .left li{
+	list-style: none;
+	display: inline-block;
+}
+.top-header .left a{
+	font-size: 13px;
+	font-weight: 500;
+	color:  #506a85;
+	margin-right:22px;
+}
+.top-header .left a:hover{
+	text-decoration: none;
+}
+.top-header .left .fa{
+	margin-right: 8px;
+
+}
+.top-header .right{
+	text-align: right;
+	display: block;
+	margin: 0px;
+}
+.top-header .right li{
+	list-style: none;
+	display: inline-block;
+}
+.top-header .right a{
+	font-size: 15px;
+	font-weight: 600;
+	color:  #506a85;
+	margin-right:15px;
+}
+.header .bg-light{
+	background: #ffffff !important;
+    padding: 18px 0px
+}
+.header .navbar-nav{
+	margin-left: 15px;
+}
+.header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+.header .navbar-light .navbar-nav .nav-link:focus, 
+.header .navbar-light .navbar-nav .nav-link:hover {
+    color: #00bc9c;
+}
+.header .search{
+	color:#506a85; 
+	margin-right: 15px;
+}
+/***********************************
+      banner section css here
+************************************/
+.banner{
+	width: 100%;
+}
+.banner .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom:30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.banner .carousel-caption h2 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.banner .carousel-caption p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+    margin-bottom: 25px;
+}
+.banner .carousel-caption .btn-info {
+    padding: 8px 10px;
+    border: 1px solid #00bc9c;
+    border-radius: 2px;
+    background:#00bc9c;
+    text-transform: uppercase;
+    margin-top: 28px;
+    transition: 1s;
+}
+
+.banner .carousel-caption .btn-info:focus,
+ .banner .carousel-caption .btn-info:hover{
+ 	background: transparent;
+ 	color:#00bc9c; 
+ 	border: 1px solid #00bc9c;
+
+}
+/***********************************
+    who-we-are section css here
+************************************/
+
+.who-we-are{
+	width: 100%;
+	padding: 50px 0px;
+}
+.who-we-are .title{
+	width: 100%;
+	text-align: center;
+}
+.who-we-are .title h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #506a85;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.who-we-are .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+    margin-bottom: 25px;	
+}
+
+.who-we-are .media{
+	width: 100%;
+	margin-top: 20px;
+}
+.who-we-are .media h5{
+    font-size: 20px;
+    line-height: 30px;
+    color: #506a85;
+    margin-bottom: 25px;
+}
+.who-we-are .media p{
+	font-size: 12px;
+    line-height: 24px;
+    color: #a3b1bf;
+    margin-bottom: 25px;	
+}
+
+/***********************************
+   latest-work section css here
+************************************/
+.latest-work{
+    width: 100%;
+    background: #f2f5f7;
+}
+.latest-work .title{
+    width: 100%;
+    text-align: center;
+}
+.latest-work .title h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #506a85;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.latest-work .title p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #98a6b5; 
+    margin-bottom: 55px;   
+}
+.latest-work .card{
+    width: 100%;
+}
+.card-img-top {
+    border: 0px solid;
+    border-radius: 0px !important;
+}
+.latest-work .card .card-body{
+    width: 100%;
+    text-align: center;
+}
+.latest-work .card .card-body h5{
+    font-size: 20px;
+    line-height:20px;
+    color: #506a85;
+}
+.latest-work .card .card-body p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7e90a3;
+}
+.latest-work .owl-carousel{
+    margin: 50px 0px 80px 0px;
+}
+.latest-work .owl-theme .owl-dots .owl-dot.active span,.latest-work  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+    margin-top: 25px;
+}/***********************************
+    get-in section css here
+************************************/
+
+.get-in {
+    width: 100%;
+    padding: 80px 0px;
+}
+.get-in .title{
+    width: 100%;
+    text-align: center;
+}
+.get-in .title h2{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #506a85;
+    letter-spacing: 1px;
+}
+.get-in .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #96a5b4;    
+}
+.get-in .title .btn-info {
+    padding: 8px 10px;
+    text-transform: uppercase;
+    border: 1px solid #00bc9c;
+    font-weight: 600;
+    border-radius: 3px;
+    background:#00bc9c;
+    margin-top: 28px;
+    transition: 1s;
+}
+.get-in .title .btn-info:focus,
+    .get-in .title .btn-info:hover{
+    background: #4698ea;
+    color:#ffffff; 
+    border: 1px solid #00bc9c; 
+}
+/***********************************
+    footer section css here
+************************************/
+
+.footer .footer-top{
+    width: 100%;
+    background: #2f4052;
+}
+.footer .footer-top .full {
+    width: 100%;
+    margin: 80px 0px 40px 0px;
+}
+.footer .footer-top .full h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.footer .footer-top .widget-3 h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+.footer .footer-top .widget-1 p{
+    font-size: 10px;
+    line-height: 20px;
+    margin: 17px 0px 0px;
+    color: #8e9cab; 
+}
+.footer .footer-top .widget-1 .more {
+    font-size: 13px;
+    color: #8e9cab;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer .footer-top .widget-1 .more .fa{
+    margin-left: 15px;
+}
+.footer .footer-top .widget-2 .card-group {
+    margin-bottom: 10px;
+}
+.footer .footer-top .widget-2 .card-group>.card {
+    border-radius: 0px;
+    margin-right: 10px;
+    background: transparent;
+}
+.footer .footer-top .widget-3 h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.footer .footer-top .widget-3 p{
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0px 0px 10px 0px;
+    color: #8e9cab; 
+}
+
+.footer .footer-top .widget-3 .fa{
+    margin-right: 15px;
+}
+.footer .footer-top .widget-3 .contact{
+
+}
+.footer .footer-top .widget-3 h5{
+    font-size: 13px;
+    margin: 0px;
+    line-height: 23px;
+    color: #8e9cab; 
+}
+.footer .footer-top .widget-4 h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.footer .footer-top .widget-4 p{
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0px 0px 22px 0px;
+    color: #8e9cab; 
+}
+.footer .footer-top .widget-4 .form .mx-sm-3 {
+    margin-left: 0px !important;
+}
+.footer .footer-top .widget-4 .form .form-control {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 20px 5px;
+    background: #4e5c6c;
+    color: #fff;
+}
+.footer .footer-top .widget-4 .form .btn-primary {
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    position: absolute;
+    right: 15%;
+    top: 55%;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    transition: .5s;
+}
+.footer .footer-top .widget-4 .form .btn-primary:hover{
+    background: #fff;
+    color:#00bc9c;
+}
+
+.footer .footer-bottom .copy h4{
+    font-size: 15px;
+    color: #6d7a88;
+    margin-top: 10px;
+}
+
+
+.footer .footer-bottom .bg-light {
+    background: transparent !important;
+    float: right;
+    position: relative;
+
+}
+.footer .footer-bottom .bg-light span {
+    color: #8e9cab;
+    margin-right: 8px;
+}
+.footer .footer-bottom .bg-light .navbar-brand{
+    font-size: 13px;
+    font-weight: 600;
+    color: #8e9cab !important;
+    text-transform: capitalize;
+    padding: 0px;
+   margin: 0px 8px 7px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8e9cab !important;
+    text-transform: capitalize;
+    padding: 0px;
+    margin-right: 8px;
+}
+.footer .footer-bottom{
+    width: 100%;
+    background: #283645;
+}
+
+
+.footer .footer-bottom .bg-light .navbar-collapse span{
+    color: #8e9cab;
+    margin-right: 8px;
+
+}
+.footer .footer-bottom .bg-light .navbar-collapse .scroll-btn{
+    padding: 2px 8px;
+    color: #8e9cab;
+    position: absolute;
+    right: -28%;
+    background: #3c5065;
+}
+.footer .footer-bottom .bg-light .navbar-collapse .scroll-btn:hover{
+    text-decoration: none;
+}
